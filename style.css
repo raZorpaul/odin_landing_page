@@ -1,0 +1,230 @@
+:root {
+    --hero-or-footer-background:#1F2937;
+    --hero-main-text-size:48px;
+    --hero-main-text-weight:900;
+    --hero-main-text-color:#F9FAF8;
+    --hero-secondary-text-size:18px;
+    --hero-secondary-text-color:#E5E7EB;
+    --header-link-size:18px;
+    --header-link-color:var(--hero-secondary-text-color);
+    --header-logo-text-size:24px;
+    --header-logo-text-color:#F9FAF8;
+    --button-color:#3882f6;
+    --call-to-action-background:var(--button-color);
+    --information-header-text-size:36px;
+    --information-header-text-weight:900;
+    --information-header-text-color:#1f2937;
+    --quote-section-background:#e5e7eb;
+    --quote-text-size:36px;
+    --quote-text-style:light italic;
+    --quote-text-color:var(--information-header-text-color);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.section1 {
+        background-color: var(--hero-or-footer-background);
+}
+
+a {
+    text-decoration: none;
+    color: var(--hero-secondary-text-color);
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.div1-logo{
+    width: 100px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.div1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 64px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 32px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-bottom: 64px;
+}
+
+.hero-texts {
+    width: 500px;
+}
+
+.main-text {
+    font-size: var(--hero-main-text-size);
+    color: var(--hero-main-text-color);
+    font-weight: var(--hero-main-text-weight);
+}
+
+.sub-text{
+    font-size: var(--hero-secondary-text-size);
+    color: var(--hero-secondary-text-color);
+}
+.hero-image {
+    width: 300px;
+}
+
+.button {
+    background-color: var(--call-to-action-background);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+
+
+  /* SECTION 2*/
+
+  .section2 {
+    padding: 132px;
+  }
+
+  .information-header{
+    font-size: var(--information-header-text-size);
+    color: var(--information-header-text-color);
+    font-weight: var(--information-header-text-weight);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+  }
+
+  .product-image {
+    border: 3px solid var(--call-to-action-background);
+    border-radius: 10%;
+  }
+  .info {
+    max-width: 150px;
+  }
+
+  .text {
+    font-size: var(--hero-secondary-text-size);
+    color: grey;
+  }
+
+
+  /*SECTION 3*/
+
+
+  .section3{
+    background-color: var(--quote-section-background);
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+  }
+
+  .quote-section {
+    max-width: 600px;
+  }
+
+  .quote{
+    font-size: x-large;
+    color: var(--quote-text-color);
+    font-style: italic;
+  }
+
+  .author{
+    text-align: right;
+    font-size: var(--information-header-text-size);
+    color: var(--information-header-text-color);
+    font-weight: var(--information-header-text-weight);
+  }
+
+
+  /*SECTION 4*/
+  .section4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 64px;
+  }
+
+  .fourth-section {
+    background-color: var(--call-to-action-background);
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 32px 64px;
+    border-radius: 8px;
+  }
+
+  .sign-up {
+    background-color: var(--call-to-action-background);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 2px solid white;
+  }
+
+  .call {
+    font-size:20px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .emphasis-signup {
+    color: white;
+  }
+  .non {
+    color: white;
+    width: 200px;
+  }
+
+
+  /*SECTION 5*/
+
+  .section5{
+    background-color: var(--hero-or-footer-background);
+  }
+
+  .copyright{
+    color: white;
+    text-align: center;
+    padding: 32px;
+  }
